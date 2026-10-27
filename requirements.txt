@@ -1,0 +1,47 @@
+# fintech-risk-system Python dependencies
+# Install: pip install -r requirements.txt (with venv activated)
+# Versions are unpinned on purpose for learning; pin if a re-run breaks.
+
+# ---- base data ----
+pandas
+numpy
+scikit-learn
+scipy
+
+# ---- modeling ----
+xgboost
+lightgbm
+
+# ---- database ----
+sqlalchemy
+pymysql
+
+# ---- dataset download ----
+datasets
+huggingface_hub
+
+# ---- visualization ----
+matplotlib
+seaborn
+plotly
+
+# ---- interpretability ----
+shap
+
+# ---- AI module ----
+langchain
+langchain-community
+chromadb
+transformers
+peft
+accelerate
+sentence-transformers
+
+# ---- interactive app ----
+streamlit
+
+# ---- dev utils ----
+jupyterlab
+ipykernel
+
+# Note: torch is pulled in automatically by transformers/peft; add a CUDA build if needed.
